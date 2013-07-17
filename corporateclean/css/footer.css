@@ -1,0 +1,57 @@
+/* 
+* Footer menu
+*/
+#footer .block UL.menu
+{
+	margin: 0;
+	padding: 0;
+}
+#footer .block UL.menu UL.menu
+{
+	margin: 0 0 0 15px;
+}
+#footer .block UL.menu LI
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	list-style-image: none;
+}
+#footer .block UL.menu LI A
+{
+	display: block;
+	padding: 5px;
+}
+/* 
+* Footer-bottom menu
+*/
+UL.secondary-menu, #footer-bottom UL.menu
+{
+	padding: 0;
+	margin: 0 0 10px;
+	display: block;
+	overflow: hidden;
+}
+UL.secondary-menu LI, #footer-bottom UL.menu LI
+{
+	display: block;
+	float: left;
+	list-style-type: none;
+	overflow: hidden;
+	padding: 0 10px;
+	margin: 0;
+}
+UL.secondary-menu LI.first, #footer-bottom UL.menu LI.first
+{
+	padding: 0 10px 0 0;
+	margin: 0;
+}
+UL.secondary-menu LI.last, #footer-bottom UL.menu LI.last
+{
+	border-right: none;
+	margin: 0;
+}
+#footer-bottom UL.menu UL.menu
+{
+	display: none;
+}

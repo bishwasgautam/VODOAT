@@ -1,0 +1,166 @@
+/*---------- Color Module Styles -----------*/
+BODY
+{
+	font-family: 'Abel', sans-serif;
+	font-size:18px;
+	color: #5B5B5B;
+	background: #EE8181;
+}
+A, LI A.active, #footer A:hover, #footer LI A.active:hover, #footer-bottom A:hover, #footer-bottom LI A.active:hover, #header A, #header-menu UL.menu LI A:hover, #header-menu UL.menu LI A.active, #header-menu UL.menu LI UL.menu LI A:hover, #navigation .block-superfish UL.sf-menu LI A:focus, #navigation .block-superfish UL.sf-menu LI A:hover, #navigation .block-superfish UL.sf-menu LI A.active, .front .node H1.front-heading
+{
+	color: #158DFF;
+}
+#header-menu A, #header-menu UL.menu LI A, #navigation .block-superfish UL.sf-menu LI A
+{
+	color: #E1DDDD;
+}
+#footer A, #footer LI A.active, #footer-bottom A, #footer-bottom LI A.active
+{
+	color: #FEDADA;
+}
+H1, H2, H3, H4, H5, H6
+{
+	color: #178EDD;
+	text-shadow: 1px 1px 1px #EAF1EA;
+}
+#slogan
+{
+	color: #F2C6B8;
+}
+#header
+{
+	background: #0B7295;
+/*IE10*/
+	background-image: -ms-linear-gradient(top, #2f2f2f 0%, #1b1a1a 100%);
+/*Mozilla Firefox*/
+	background-image: -moz-linear-gradient(top, #2f2f2f 0%, #1b1a1a 100%);
+/*Opera*/
+	background-image: -o-linear-gradient(top, #2f2f2f 0%, #1b1a1a 100%);
+/*Webkit (Safari/Chrome 10)*/
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0,#000000), color-stop(1,#5B5B5B));
+/*Webkit (Chrome 11+)*/
+	background-image: -webkit-linear-gradient(top, #5B5B5B, #5B5B5B 100%);
+/*Proposed W3C Markup*/
+	background-image: linear-gradient(top, #2f2f2f 0%, #1b1a1a 100%);
+/*IE6-9*/
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2f2f2f', endColorstr='#1b1a1a');
+}
+#header-menu
+{
+	background: #5B5B5B;
+	border-top: 1px solid #353535;
+	border-bottom: 1px solid #353535;
+}
+#header-menu UL.menu LI.expanded UL.menu, #navigation .block-superfish UL.sf-menu LI, #navigation .block-superfish UL.sf-menu LI LI A
+{
+	background: #0D0D0D;
+}
+#header-menu UL.menu LI.expanded UL.menu LI A, #footer .block UL.menu LI A, #navigation .block-superfish UL.sf-menu LI LI A
+{
+	border-bottom: 1px solid #CB1515;
+}
+#footer-bottom
+{
+	border-top: 1px solid #DD9292;
+}
+UL.secondary-menu LI, #footer-bottom UL.menu LI
+{
+	border-right: 1px solid #8D2828;
+}
+#header-menu UL.menu LI UL.menu LI A:hover, #header-menu UL.menu LI.expanded UL.menu LI.expanded A:hover, #header-menu UL.menu LI.expanded UL.menu LI.leaf A:hover, #navigation .block-superfish UL.sf-menu LI LI:hover, #navigation .block-superfish UL.sf-menu LI LI A:focus, #navigation .block-superfish UL.sf-menu LI LI A:hover, #navigation .block-superfish UL.sf-menu LI LI A:active
+{
+	background-color: #E22323;
+}
+#banner
+{
+	background: #E1DDDD;
+/*IE10*/
+	background-image: -ms-linear-gradient(top, #efeeee 0%, #dadada 100%);
+/*Mozilla Firefox*/
+	background-image: -moz-linear-gradient(top, #efeeee 0%, #dadada 100%);
+/*Opera*/
+	background-image: -o-linear-gradient(top, #efeeee 0%, #dadada 100%);
+/*Webkit (Safari/Chrome 10)*/
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #E1DDDD), color-stop(1, #000000));
+/*Webkit (Chrome 11+)*/
+	background-image: -webkit-linear-gradient(top, #E1DDDD 0%, #dadada 100%);
+/*Proposed W3C Markup*/
+	background-image: linear-gradient(top, #efeeee 0%, #dadada 100%);
+/*IE6-9*/
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#efeeee', endColorstr='#dadada');
+	border-bottom: 1px solid #FCFCFC;
+}
+#content
+{
+	background: #777575;
+/*IE10*/
+	background-image: -ms-linear-gradient(top, #e8e8e8 0%, #efefef 100%);
+/*Mozilla Firefox*/
+	background-image: -moz-linear-gradient(top, #e8e8e8 0%, #efefef 100%);
+/*Opera*/
+	background-image: -o-linear-gradient(top, #e8e8e8 0%, #efefef 100%);
+/*Webkit (Safari/Chrome 10)*/
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #E1DDDD), color-stop(1,#D9D5D5));
+/*Webkit (Chrome 11+)*/
+	background-image: -webkit-linear-gradient(top, #E1DDDD 0%, #D9D5D5 100%);
+/*Proposed W3C Markup*/
+	background-image: linear-gradient(top, #e8e8e8 0%, #efefef 100%);
+/*IE6-9*/
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e8e8e8', endColorstr='#efefef');
+}
+#footer
+{
+	background: #FCA05D;
+}
+#footer-bottom
+{
+	background: #080808;
+/*IE10*/
+	background-image: -ms-linear-gradient(top, #262626 0%, #1a1a1a 100%);
+/*Mozilla Firefox*/
+	background-image: -moz-linear-gradient(top, #262626 0%, #1a1a1a 100%);
+/*Opera*/
+	background-image: -o-linear-gradient(top, #262626 0%, #1a1a1a 100%);
+/*Webkit (Safari/Chrome 10)*/
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0,#E1DDDD0), color-stop(1, #FFFFFF));
+/*Webkit (Chrome 11+)*/
+	background-image: -webkit-linear-gradient(top, #E1DDDD0 0%, #FFFFFF 100%);
+/*Proposed W3C Markup*/
+	background-image: linear-gradient(top, #262626 0%, #1a1a1a 100%);
+/*IE6-9*/
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#262626', endColorstr='#1a1a1a');
+	margin-left: 0;
+}
+.links UL LI A, A.more, #comments UL.links LI A, INPUT[type="submit"], INPUT[type="reset"], INPUT[type="button"]
+{
+	color: #FEFEFE;
+	text-shadow: 0 1px 1px #74790C;
+/*background*/
+	background: #24149B;
+/*IE10*/
+	background-image: -ms-linear-gradient(top, #0093c5 0%, #0079a2 100%);
+/*Mozilla Firefox*/
+	background-image: -moz-linear-gradient(top, #0093c5 0%, #0079a2 100%);
+/*Opera*/
+	background-image: -o-linear-gradient(top, #0093c5 0%, #0079a2 100%);
+/*Webkit (Safari/Chrome 10)*/
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #0093c5), color-stop(1, #0079a2));
+/*Webkit (Chrome 11+)*/
+	background-image: -webkit-linear-gradient(top, #0093c5 0%, #0079a2 100%);
+/*Proposed W3C Markup*/
+	background-image: linear-gradient(top, #0093c5 0%, #0079a2 100%);
+/*IE6-9*/
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0093c5', endColorstr='#0079a2');
+/*shadow*/
+	-webkit-box-shadow: 0px 1px 2px #939da2;
+	-moz-box-shadow: 0px 1px 2px #939da2;
+	box-shadow: 0px 1px 2px #939DA2;
+}
+.links UL LI A:hover, A.more:hover, #comments UL.links LI A:hover, INPUT[type="submit"]:hover, INPUT[type="reset"]:hover, INPUT[type="button"]:hover
+{
+	background: #0B7295;
+}
+.region-sidebar-first .block .content, .region-sidebar-second .block .content
+{
+	background: #BBBBBB;
+}

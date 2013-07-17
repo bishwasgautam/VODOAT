@@ -1,0 +1,32 @@
+/* 
+* Messages
+*/
+DIV.messages.status
+{
+	background: #52AC61;
+	border: 1px solid #46A055;
+	padding: 10px;
+	margin: 0 0 15px;
+	color: #FFFFFF;
+}
+DIV.messages.error
+{
+	background: #D30000;
+	border: 1px solid #B50000;
+	padding: 10px;
+	margin: 0 0 15px;
+	color: #FFFFFF;
+}
+DIV.messages.warning
+{
+	background: #DD6E0C;
+	border: 1px solid #D2AC7F;
+	padding: 10px;
+	margin: 0 0 15px;
+	color: #FFFFFF;
+}
+DIV.messages.status A, DIV.messages.error A, DIV.messages.warning A
+{
+	color: #FFFFFF;
+	text-decoration: underline;
+}
